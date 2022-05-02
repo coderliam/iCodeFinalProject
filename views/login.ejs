@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include ("partials/head") %>
+    <title>Login</title>
+  </head>
+  <body>
+    <%- include("partials/header") %>
+
+    <main style="padding: 3rem">
+
+      <section class="body">
+        
+      
+      <div class="google">
+          <a
+            class="btn btn-lg btn-google"
+            style="
+              padding: 0.2rem 0.5rem;
+              background-color: rgb(7, 7, 7);
+              color: rgb(255, 255, 255);
+            "
+            href="/auth/google"
+            ><img
+              src="https://img.icons8.com/color/16/000000/google-logo.png"
+            />
+            Login with Google</a
+          >
+        
+      </div> 
+      <br />
+      <br>
+      <h4>Or... you have an account. Login here:</h2>
+        <br>
+        <br>
+   
+      <form action="/auth/login" method="POST">
+        <%- include("partials/message") %>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            placeholder="Enter email"
+            name="username"
+          />
+          <small id="emailHelp" class="form-text text-muted"
+            >We'll never share your email with anyone else.</small
+          >
+        </div>
+        <br />
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+            placeholder="Password"
+            name="password"
+          />
+        </div>
+        <br />
+        <button class="btn btn-primary">Submit</button>
+        
+      </form>
+    </section>
+    </main>
+    <%- include ("partials/footer") %>
+  </body>
+ 
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+  crossorigin="anonymous"
+></script>
+</html>

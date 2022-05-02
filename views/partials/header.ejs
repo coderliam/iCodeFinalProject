@@ -1,0 +1,31 @@
+<header>
+  <div class="logo">
+    <img src="/Icons/CHFS.png" alt="Logo" />
+    <h1>Calgary Housework Flex Service</h1>
+  </div>
+
+  <nav>
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+      <% if (!user) { %>
+      <li class="nav-item">
+        <a class="nav-link" href="/auth/login">Login</a>
+      </li>
+      <% } %> <% if (!user) { %>
+      <li class="nav-item">
+        <a class="nav-link" href="/auth/signup">Signup</a>
+      </li>
+      <% } %> <% if (user) { %>
+      <li class="nav-item">
+        <a class="nav-link" href="/auth/logout">Logout</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/profile">Profile</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/profile/post">New Post</a>
+      </li>
+      <% } %>
+    </ul>
+  </nav>
+</header>
