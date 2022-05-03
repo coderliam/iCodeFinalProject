@@ -1,12 +1,12 @@
 {
-  "name": "googlelogin",
+  "name": "CHFS",
   "version": "1.0.0",
-  "description": "This is a practice project for OAuth.",
+  "description": "This is a house work flex service site.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "William",
+  "author": "CoderLiam",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
