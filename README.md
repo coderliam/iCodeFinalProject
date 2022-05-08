@@ -184,7 +184,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Your Name - [@baixiaolong](https://twitter.com/baixiaolong) - iam@baixiaolong.me
+Name - [@baixiaolong](https://twitter.com/baixiaolong) - iam@baixiaolong.me
 
 Project Link: [https://github.com/coderliam/iCodeFinalProject](https://github.com/coderliam/iCodeFinalProject)
 
