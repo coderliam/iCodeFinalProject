@@ -52,13 +52,11 @@ header {
 }
 
 main {
-  section.body{
+  section.body {
     display: flex;
     min-height: 40vh;
     width: 100%;
     position: relative;
-
-
   }
   section.backImage {
     min-height: 90vh;
@@ -149,6 +147,21 @@ main {
       }
     }
   }
+}
+
+.google {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-justify: auto;
+  min-height: fit-content;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-justify: auto;
 }
 
 footer {
