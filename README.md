@@ -68,11 +68,14 @@
 
 ## About The Project
 
+The web system of odd jobs publishes and assigns. <br>
+-- It connects casual employers and gig workers.
+
+This is a real business requirement and an excellent startup idea. It references amazon delivery flex service, It allows house owners to get housework services at a lower cost, while it also allows people with extra time to earn more. for example students, and part-time job people. Furthermore, it will become a common flex odd jobs publish and assign system when its code is strong and matures.
+
 <p style="text-align: center;">
 <img src="public/Pictures/ScreenShot.png" alt="CHFS" style="zoom:25%;" />
 </p>
-
-This is a real business requirement and an excellent startup idea. It references amazon delivery flex service, It allows house owners to get housework services at a lower cost, while it also allows people with extra time to earn more. for example students, part-time job people.
 
 The feature plan:
 
@@ -83,6 +86,21 @@ The feature plan:
 - Schedule and reminder management
 - Payment management
 - System Management
+
+The dependencies:
+
+- "bcrypt"
+- "connect-flash"
+- "cookie-session"
+- "dotenv"
+- "ejs"
+- "express"
+- "express-session"
+- "mongoose"
+- "nodemon"
+- "passport"
+- "passport-google-oauth20"
+- "passport-local"
 
 Use the `BLANK_README.md` to get started.
 
@@ -141,6 +159,8 @@ This is an example of how to list things you need to use the software and how to
 ## Roadmap
 
 - [x] User Signup/Login/Logout
+- [-] Front-end and back-end separation
+- [-] Adopt the framework React
 - [-] User Management
 - [ ] Task post management
 - [ ] Task assign management
