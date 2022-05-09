@@ -87,6 +87,19 @@ The feature plan:
 - Payment management
 - System Management
 
+Use the `BLANK_README.md` to get started.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### Built With
+
+The development language used in this project:
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML)
+- [SCSS](https://sass-lang.com/documentation)
+- [Next.js](https://nextjs.org/)
+- [Bootstrap](https://getbootstrap.com)
+
 The dependencies:
 
 - "bcrypt"
@@ -101,20 +114,6 @@ The dependencies:
 - "passport"
 - "passport-google-oauth20"
 - "passport-local"
-
-Use the `BLANK_README.md` to get started.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-### Built With
-
-The development language used in this project:
-
-- [HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML)
-- [SCSS](https://sass-lang.com/documentation)
-- [Next.js](https://nextjs.org/)
-- [Bootstrap](https://getbootstrap.com)
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
