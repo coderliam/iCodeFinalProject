@@ -96,8 +96,8 @@ Use the `BLANK_README.md` to get started.
 The development language used in this project:
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML)
-- [SCSS](https://sass-lang.com/documentation)
-- [Next.js](https://nextjs.org/)
+- [CSS & SCSS](https://sass-lang.com/documentation)
+- [JavaScript & EJS](https://ejs.org)
 - [Bootstrap](https://getbootstrap.com)
 
 The dependencies:
